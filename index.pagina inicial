@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>LOJA PROVA</title>
+</head>
+<body>
+    <header>
+        <h1>LOJA PROVA</h1>
+    </header>
+
+    <p>Seja bem-vindo à nossa loja! Aqui você encontrará produtos de qualidade para atender às suas necessidades. Explore nossas categorias e descubra as melhores ofertas.</p>
+
+    <form>
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div>
+            <label for="data_nascimento">Data de nascimento:</label><br>
+            <input type="date" id="data_nascimento" name="data_nascimento">
+        </div>
+
+        <div>
+            <label for="estado_civil">Estado civil:</label><br>
+            <select id="estado_civil" name="estado_civil">
+                <option value="">Selecione</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="genero">Gênero:</label><br>
+            <select id="genero" name="genero">
+                <option value="">Selecione</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="interesses">Áreas de interesse:</label><br>
+            <input type="text" id="interesses" name="interesses" placeholder="Ex: jogos, escritório, edição e design">
+        </div>
+
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <footer>
+        <p>© 2026 LOJA PROVA. ENDEREÇO AV. BRASIL, 651 - CENTRO - CAPANEMA-PR. Site protegido por direitos autorais.</p>
+    </footer>
+</body>
+</html>
+

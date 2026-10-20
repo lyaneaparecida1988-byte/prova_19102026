@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>LOJA PROVA</title>
+</head>
+<body>
+    <header>
+        <h1>LOJA PROVA</h1>
+         </header>
+         <img src="sandalia.jpeg" alt="Sandália">
+    <p>Sandália.</p>
+    <p>SANDALIA FEMININA </p>
+    <p>preço: R$ 199,90</p>
+    <button>Comprar</button>
+
+    <img src="sapato.jpeg" alt="Sapato">
+    <p>SAPATO FEMENINO</p>
+    <p>preço: R$ 299,90</p>
+    <button>Comprar</button>
+
+    <img src="tenis.jpeg" alt="Tênis">
+    <p>TÊNIS MASCULINO</p>
+    <p>preço: R$ 399,90</p>
+    <button>Comprar</button>  
+       
+</body>
+
